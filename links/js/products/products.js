@@ -165,22 +165,23 @@ function contactAgent(ProductId) {
     ProductUrl = `${window.location.origin}/#Product-${ProductId}`;
   }
 
+   // بناء تفاصيل المنتج ديناميكياً
+  let details = "";
+  if (Product.category) details += `📂 Category: ${Product.category}\n`;
+  if (Product.detex) details += `🧵 Detex: ${Product.detex}\n`;
+  if (Product.pile) details += `📏 Pile: ${Product.pile} MM\n`;
+  if (Product.stitches) details += `#️⃣ Stitches: ${Product.stitches.toLocaleString()}\n`;
+  if (Product.gauge) details += `📐 Gauge: ${Product.gauge}\n`;
+  if (Product.feaOne) details += `🔹 ${Product.feaOne}\n`;
+  if (Product.feaTwo) details += `🔹 ${Product.feaTwo}\n`;
+  if (Product.feaThree) details += `🔹 ${Product.feaThree}\n`;
+  if (Product.feaFour) details += `🔹 ${Product.feaFour}\n`;
+
   const message = `Hello 👋
 أنا مهتم بالمنتج:
 "${Product.title}"
 
-📂 Category: ${Product.category}
-${Product.pile > 0 ? `<span class="Product-detail" style="font-size: 1.1rem;"><i class="fa-solid fa-ruler-vertical" style="color:#0ea5a4; font-size:20px;"></i>Height  ${Product.pile}MM</span>` : ''}
-${Product.stitches > 0 ? `<span class="Product-detail" style="font-size: 1.1rem;"><i class="fa-solid fa-grip-lines" style="color:#0ea5a4; font-size:20px;"></i> ${Product.stitches}stitches</span>` : ''}
-${Product.detex > 0 ? `<span class="Product-detail">🧵 ${Product.detex} Detex</span>` : ''}
-${Product.gauge > "" ? `<span class="Product-detail">📐 ${Product.gauge} Gauge</span>` : ''}
-${Product.feaOne > "" ? `<span class="Product-detail">${Product.feaOne}</span>` : ''}
-${Product.feaTwo > "" ? `<span class="Product-detail">${Product.feaTwo}</span>` : ''}
-${Product.feaThree > "" ? `<span class="Product-detail">${Product.feaThree}</span>` : ''}
-${Product.feaFour > "" ? `<span class="Product-detail">${Product.feaFour}</span>` : ''}
-
-🧵 Detex: ${Product.detex || ''}
-📏 Pile: ${Product.pile || ''} MM / #️⃣ ${Product.stitches?.toLocaleString() || '-'} stit
+${details}
 🏷️ كود المنتج: ${Product.id}
 💰 السعر: ${Product.price.toLocaleString()} ج.م
 
