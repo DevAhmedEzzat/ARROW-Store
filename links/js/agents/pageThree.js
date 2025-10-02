@@ -2,16 +2,16 @@
 /*companies logo*/
 // بيانات الشركات
 const companies = [
- { name: "Arrow Sports",   logo: "media/photo/companiesLogo/arrowSports-com.png", url: "https://arrowsports.netlify.app" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
-  { name: "أضف شركتك الأن",        logo: "media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+ { name: "Arrow Sports",   logo: "../media/photo/companiesLogo/arrowSports-com.png", url: "https://arrowsports.netlify.app" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
+  { name: "أضف شركتك الأن",        logo: "../media/photo/companiesLogo/plus.png",    url: "https://wa.me/201094732106?text=I%20Want%20To%20Add%20A%20Sports%20Company%20To%20ARROW Store" },
   // زوّد براحتك...
 ];
 
