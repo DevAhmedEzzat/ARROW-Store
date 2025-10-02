@@ -1,17 +1,4 @@
 :root {
-    /*
- --primary: #0adb8d;
-    --secondary: #1a237e;
-    --accent: #f39c12;
-    --dark: #121212;
-    --light: #f8f9fa;
-    --success: #00ff62;
-    --hover: #156a42;
-    --shadow: 0 10px 30px rgba(0, 255, 98, 0.9);
-    --bg-linear: linear-gradient(135deg, var(--secondary) 50%, var(--light) 125%);
-    --bg-primary: linear-gradient(45deg, var(--primary) 50%, var(--hover) 125%);
-    --bg-accent: linear-gradient(45deg, var(--accent) 50%, var(--light) 125%);
-    */
     --primary: #156a42;
     --secondary:  #25D366;
     --accent:  #0b3d91;
@@ -473,9 +460,21 @@ main {
 }
 
 /* more pages */
-.more-gard{
+.more-gard ul {
     display: flex;
+    list-style-type: none;
     justify-content: center;
+}
+
+.more-gard ul li {
+    margin-left: 0.5rem;
+}
+
+.more-gard ul li a{
+    color: var(--light);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
 }
 
 .more {
@@ -485,13 +484,12 @@ color: var(--light);
 background: var(--primary);
 border: 2px solid var(--accent);
 border-radius: 100px;
-margin: 1px;
 text-align: center;
-text-decoration: none;
 font-size: 1rem;
 cursor: pointer;
 transition: background .2s ease, transform .2s ease;
 }
+
 .light {
     background: var(--secondary);
 }
