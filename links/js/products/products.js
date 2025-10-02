@@ -146,6 +146,57 @@ function contactAgent(ProductId) {
 
   const phone = Product.whatsapp.replace(/\D/g, ""); // نتأكد انه رقم بس  
 
+  // نجيب الباث الحالي
+  const currentPath = window.location.pathname;
+
+  let ProductUrl;
+
+  // لو المستخدم في صفحة products.html
+  if (currentPath.includes("products.html")) {
+    ProductUrl = `${window.location.origin}/links/products.html#Product-${ProductId}`;
+  } 
+  // لو المستخدم في أي صفحة داخل /pages/
+  else if (currentPath.includes("/pages/")) {
+    const currentPage = currentPath.split("/").pop(); // يجيب اسم الصفحة زي page1.html
+    ProductUrl = `${window.location.origin}/links/pages/${currentPage}#Product-${ProductId}`;
+  } 
+  // fallback (لو في أي مكان تاني)
+  else {
+    ProductUrl = `${window.location.origin}/links/products.html#Product-${ProductId}`;
+  }
+
+  const message = `Hello 👋
+أنا مهتم بالمنتج:
+"${Product.title}"
+
+📂 Category: ${Product.category}
+🧵 Detex: ${Product.detex || '-'}
+📏 Pile: ${Product.pile || '-'} MM / #️⃣ ${Product.stitches?.toLocaleString() || '-'} stit
+🏷️ كود المنتج: ${Product.id}
+💰 السعر: ${Product.price.toLocaleString()} ج.م
+
+🖼️ صورة المنتج:
+${window.location.origin}/${Product.image}
+
+🌐 رابط المنتج:
+${ProductUrl}`;
+
+  // فتح واتساب
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
+
+/*
+// Contact agent
+function contactAgent(ProductId) {
+  const Product = products.find(p => p.id === ProductId);
+  if (!Product) {
+    alert("المنتج غير موجود 🚫");
+    return;
+  }
+
+  const phone = Product.whatsapp.replace(/\D/g, ""); // نتأكد انه رقم بس  
+
   // رابط صفحة الإعلان (ممكن يتعدل حسب مكان الملف)
   const ProductUrl = `${window.category.origin}/links/products.html#Product-${ProductId}`;
 
@@ -169,7 +220,7 @@ ${ProductUrl}`;
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 }        
-     
+     */
 // Save Product
 function saveProduct(ProductId) {
     const Product = products.find(p => p.id === ProductId);
