@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/16",
         description: "هل محتاج لمسة خضار بسيطة؟ الحل الأمثل ديكورات داخلية أو تصميمات مؤقتة",
         features: ["شكل جمالي بدون تكلفة", "سهل التنظيف والتركيب", "ديكور داخلي"],
-        image: "links/media/photo/landscape/landscape6mm.png",
+        image: "media/photo/landscape/landscape6mm.png",
         whatsapp: "201094732106"
     },
     {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/16",
         description: "مناسب للديكور الداخلي والبلكونات الخفيفة، يوفر مظهر ناعم بلمسة بسيطة ومن غير تكلفة عالية",
         features:  ["شكل جمالي بدون تكلفة", "سهل التنظيف والتركيب", "ديكور داخلي", "ممرات", "خلفيات تصوير"],
-        image: "links/media/photo/landscape/landscape9mm.jpeg",
+        image: "media/photo/landscape/landscape9mm.jpeg",
         whatsapp: "201094732106"
     },
     {
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/16",
         description: "النجيل الصناعي اللي بيوازن بين الشكل والسعر، مثالي للناس اللي بتدور على خيار ديكوري اقتصادي",
         features:  ["سهل التنظيف والتركيب", "ديكور داخلي", "ممرات", "خلفيات تصوير", "مناطق عرض", "مداخل داخلية"],
-        image: "links/media/photo/landscape/landscape11mm.jpeg",
+        image: "media/photo/landscape/landscape11mm.jpeg",
         whatsapp: "201094732106"
     },
     {
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "5/8",
         description: `نجيل بادل تركي مصنوع من خامات البولي ايثلين مخصص لاستخدامات البادل تنس طبقا لمواصفات الاتحاد الدولي ومواصفات اتحاد محترقي البادل`,
         features: ["شكل جمالي بدون تكلفة", "سهل التنظيف والتركيب", "ديكور داخلي"],
-        image: "links/media/photo/landscape/padele12mm.jpeg",
+        image: "media/photo/landscape/padele12mm.jpeg",
         whatsapp: "201094732106"
     },
     {
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/8",
         description: "أول خطوة في عالم اللاندسكيب الحقيقي، بيقدملك منظر طبيعي مع إحساس بسيط بالملمس",
         features:  ["أسطح", "سهل التنظيف والتركيب", "شرفات ", "حدائق خفيفة"],
-        image: "links/media/photo/landscape/landscape20mm.png",
+        image: "media/photo/landscape/landscape20mm.png",
         whatsapp: "201094732106"
     },
     {
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/8",
         description: "التوازن المثالي بين الشكل الطبيعي والتحمّل، مناسب للجلسات العائلية والمساحات المفتوحة",
         features:  ["رؤف", "سهل التنظيف والتركيب", "شرفات ", "مناطق لعب أطفال"],
-        image: "links/media/photo/landscape/landscape30mm.jpeg",
+        image: "media/photo/landscape/landscape30mm.jpeg",
         whatsapp: "201094732106"
     },  
     {
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/8",
         description: "الأكثر استخدامًا في مصر، هو خيار الناس اللي بتحب التوازن: شكل + نعومة + تحمّل",
         features:  ["رؤف", "شرفات ", "حدائق فلل", "كمبوندات", "حدائق راقية", "منظر طبيعي ", "ملمس ناعم ", "مقاوم للشمس"],
-        image: "links/media/photo/landscape/landscape40mm.png",
+        image: "media/photo/landscape/landscape40mm.png",
         whatsapp: "201094732106"
     },
     {
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/8",
         description: "أعلى درجات النعومة والشكل الطبيعي، لو عايز حديقة تحس كأنك في غابة خضرة",
         features:  ["جلسات فاخرة", "حدائق كبيرة", "حدائق فلل", "كمبوندات", "حدائق راقية", "مظهر فاخر", "منتجعات"],
-        image: "links/media/photo/landscape/landscape50mm.png",
+        image: "media/photo/landscape/landscape50mm.png",
         whatsapp: "201094732106"
     },
     {
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/4",
         description: "خيار ذكي واقتصادي للملاعب الرياضية سعر مناسب وجودة جيدة للاستخدام في الأماكن ذات الكثافة السكانية المتوسطة",
         features:  ["عالي الجودة", "مقاوم للعوامل الجوية", "عالي الكثافة", "امتصاص عالي للصدمات", "سهولة في الصيانة"],
-        image: "links/media/photo/playground/playground40mm.jpg",
+        image: "media/photo/playground/playground40mm.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/4",
         description: "توازن مثالي بين الجودة والسعر، قوة تحمل جيدة مع إحساس طبيعي ومناسب للملاعب شبه الاحترافية",
         features:  ["عالي الجودة", "مقاوم للعوامل الجوية", "عالي الكثافة", "امتصاص عالي للصدمات", "سهولة في الصيانة"],
-        image: "links/media/photo/playground/playground50mm.png",
+        image: "media/photo/playground/playground50mm.png",
         whatsapp: "201094732106"
     },
     {
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "5/8",
         description: "توازن مثالي بين الجودة والسعر، قوة تحمل جيدة مع إحساس طبيعي ومناسب للملاعب شبه الاحترافية",
         features:  ["عالي الجودة", "مقاوم للعوامل الجوية", "عالي الكثافة", "امتصاص عالي للصدمات", "سهولة في الصيانة"],
-        image: "links/media/photo/playground/playground50mm.png",
+        image: "media/photo/playground/playground50mm.png",
         whatsapp: "201094732106"
     },
     {
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/4",
         description: "توازن مثالي بين الجودة والسعر، قوة تحمل جيدة مع إحساس طبيعي ومناسب للملاعب شبه الاحترافية",
         features:  ["عالي الجودة", "مقاوم للعوامل الجوية", "عالي الكثافة", "امتصاص عالي للصدمات", "سهولة في الصيانة"],
-        image: "links/media/photo/playground/playground50mm1.jpg",
+        image: "media/photo/playground/playground50mm1.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "5/8",
         description: "توازن مثالي بين الجودة والسعر، قوة تحمل جيدة مع إحساس طبيعي ومناسب للملاعب شبه الاحترافية",
         features:  ["عالي الجودة", "مقاوم للعوامل الجوية", "عالي الكثافة", "امتصاص عالي للصدمات", "سهولة في الصيانة"],
-        image: "links/media/photo/playground/playground50mm1.jpg",
+        image: "media/photo/playground/playground50mm1.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "3/4",
         description: "توازن مثالي بين الجودة والسعر، قوة تحمل جيدة مع إحساس طبيعي ومناسب للملاعب شبه الاحترافية",
         features:  ["عالي الجودة", "مقاوم للعوامل الجوية", "عالي الكثافة", "امتصاص عالي للصدمات", "سهولة في الصيانة"],
-        image: "links/media/photo/playground/playground50mm2.jpg",
+        image: "media/photo/playground/playground50mm2.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "5/8",
         description: "توازن مثالي بين الجودة والسعر، قوة تحمل جيدة مع إحساس طبيعي ومناسب للملاعب شبه الاحترافية",
         features:  ["عالي الجودة", "مقاوم للعوامل الجوية", "عالي الكثافة", "امتصاص عالي للصدمات", "سهولة في الصيانة"],
-        image: "links/media/photo/playground/playground50mm2.jpg",
+        image: "media/photo/playground/playground50mm2.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function() {
         gauge: "5/8",
         description: "توازن مثالي بين الجودة والسعر، قوة تحمل جيدة مع إحساس طبيعي ومناسب للملاعب شبه الاحترافية",
         features:  ["عالي الجودة", "مقاوم للعوامل الجوية", "عالي الكثافة", "امتصاص عالي للصدمات", "سهولة في الصيانة"],
-        image: "links/media/photo/playground/playground50mm3.jpg",
+        image: "media/photo/playground/playground50mm3.jpg",
         whatsapp: "201094732106"
     },
     // Football Goal Posts 5-a-side fields:
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Made Of Iron",
         description: "اهداف مرمى الملعب الخماسي مصنوعة وفق المعايير المهنية، ومجهزة بشبكات ذات رؤية عالية",
         features:  ["منتج عالي الجودة", "دهان باللون الابيض"],
-        image: "links/media/photo/sportsSupplies/footballGoal5.jpg",
+        image: "media/photo/sportsSupplies/footballGoal5.jpg",
         whatsapp: "201094732106"
     },
     // Lighting Systems:
@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "1.5Kg",
         description: "مصباح اضاءة قوي يستخدم في ملاعب كرة القدم الصغيرة والمناطق المفتوحة ، ويتميز بتقنية لتوفير طاقة عالية واضاءة ساطعة ومتساوية",
         features:  ["منتج عالي الجودة", "متانة الهيكل", "ضد الماء", "استهلاك اقل للطاقة", "زجاج مقاوم للحرارة"],
-        image: "links/media/photo/sportsSupplies/ledFloodLight200W.jpg",
+        image: "media/photo/sportsSupplies/ledFloodLight200W.jpg",
         whatsapp: "201094732106"
     },
     // Playground Net Systems:
@@ -345,7 +345,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Weather Resistant",
         description: "شبكة مرمى عالية الجودة للملعب الخماسي، مصنوعة من خامات متينة مقاومة للعوامل الجوية ومناسبة للاستخدام الداخلي والخارجي",
         features: ["مقاس رسمي للملاعب الخماسية", "خامة عالية الكثافة بدون عقد", "مقاومة للأشعة فوق البنفسجية", "عمر افتراضي طويل", "سهل الفك والتركيب"],
-        image: "links/media/photo/sportsSupplies/playgroundGoalNet.jpg",
+        image: "media/photo/sportsSupplies/playgroundGoalNet.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -363,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "UV & Weather Resistant",
         description: "شبكة أجناب وسقف للملعب الخماسي، مصممة لتغطية جوانب الملعب بالكامل ومنع خروج الكرة. خامة عالية الجودة مقاومة للشمس والعوامل الجوية، تضمن أمان اللعب والمتانة الطويلة.",
         features: ["خامة بدون عقد عالية الكثافة", "مقاومة للأشعة فوق البنفسجية", "مقاومة للتآكل والطقس الخارجي", "تثبيت قوي وسهل التركيب"],
-        image: "links/media/photo/sportsSupplies/playgroundSideNet.jpg",
+        image: "media/photo/sportsSupplies/playgroundSideNet.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -381,7 +381,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "PVC",
         description: "شبكة ملعب البادل العالية الجودة مصنوعة من الياف صناعية دقيقة تمنع مرور الكرة من خلالها، مزودة بأجهزة شد سريعة ويتم تعليق الشكبة بواسطة كابل معدني مما يحافظ علي شد الشبكة",
         features:  ["منتج عالي الجودة", "معالج ضد عوامل التعرية", "مزودة بكابل معدني"],
-        image: "links/media/photo/sportsSupplies/padelNet.png",
+        image: "media/photo/sportsSupplies/padelNet.png",
         whatsapp: "201094732106"
     },
     // Protection Net Posts
@@ -400,7 +400,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Color: White",
         description: "أعمدة تثبيت لشبكة أجناب الملعب الخماسي مصنوعة من الصلب المطلي كهربيًا لمقاومة الصدأ والتآكل، تضمن ثبات الشبكة لفترات طويلة في مختلف الظروف الجوية",
         features: ["ارتفاع 9 أمتار لتغطية جانبي الملعب بالكامل", "مصنوعة من صلب عالي المتانة", "مقاومة للصدأ والعوامل الجوية", "سهلة التركيب", "تشطيب طلاء للحماية الإضافية"],
-        image: "links/media/photo/sportsSupplies/protectionNetPosts.png",
+        image: "media/photo/sportsSupplies/protectionNetPosts.png",
         whatsapp: "201094732106"
     },
     // PVC Tiles:
@@ -419,7 +419,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Square",
         description: `بلاطات مربعات محلي الصنع سمك 2سم بالالوان <br> (اسود/احمر/رمادي/اخضر/ازرق/اصفر)`,
         features:  ["منتج عالي الجودة", "معالج ضد عوامل التعرية", "امتصاص الصدمات", "مقاومة الانزلاق", "سهولة التركيب"],
-        image: "links/media/photo/sportsFlooring/rubberTilesBlack.jpeg",
+        image: "media/photo/sportsFlooring/rubberTilesBlack.jpeg",
         whatsapp: "201094732106"
     },
     {
@@ -437,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Square",
         description: `بلاطات مربعات محلي الصنع سمك 2سم بالالوان <br> (اسود/احمر/رمادي/اخضر/ازرق/اصفر)`,
         features:  ["منتج عالي الجودة", "معالج ضد عوامل التعرية", "امتصاص الصدمات", "مقاومة الانزلاق", "سهولة التركيب"],
-        image: "links/media/photo/sportsFlooring/rubberTilesRed.jpg",
+        image: "media/photo/sportsFlooring/rubberTilesRed.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -455,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Square",
         description: `بلاطات مربعات محلي الصنع سمك 2سم بالالوان <br> (اسود/احمر/رمادي/اخضر/ازرق/اصفر)`,
         features:  ["منتج عالي الجودة", "معالج ضد عوامل التعرية", "امتصاص الصدمات", "مقاومة الانزلاق", "سهولة التركيب"],
-        image: "links/media/photo/sportsFlooring/rubberTilesBlue.jpg",
+        image: "media/photo/sportsFlooring/rubberTilesBlue.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -473,7 +473,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Puzzles",
         description: `بلاطات مطاطية عالية الكثافة مصممة خصيصًا للمراكز الرياضية، الجيم، ساحات اللعب، ومناطق الألعاب الآمنة للأطفال. توفر امتصاص ممتاز للصدمات ومقاومة عالية للتآكل`,
         features:  ["منتج عالي الجودة", "معالج ضد عوامل التعرية", "امتصاص الصدمات", "مقاومة الانزلاق", "سهولة التركيب"],
-        image: "links/media/photo/sportsFlooring/rubberTilesBlackPuzzles.jpg",
+        image: "media/photo/sportsFlooring/rubberTilesBlackPuzzles.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -491,7 +491,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Interlock",
         description: `بلاطات مطاطية عالية الكثافة مصممة خصيصًا للمراكز الرياضية، الجيم، ساحات اللعب، ومناطق الألعاب الآمنة للأطفال. توفر امتصاص ممتاز للصدمات ومقاومة عالية للتآكل`,
         features:  ["منتج عالي الجودة", "معالج ضد عوامل التعرية", "امتصاص الصدمات", "مقاومة الانزلاق", "سهولة التركيب"],
-        image: "links/media/photo/sportsFlooring/rubberTilesRedInterlock.jpg",
+        image: "media/photo/sportsFlooring/rubberTilesRedInterlock.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -509,7 +509,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "UV & Weather Resistant",
         description: "دهانات أكريليك مخصصة للملاعب الرياضية مثل التنس، كرة السلة، تتميز بمقاومة عالية للعوامل الجوية والأشعة فوق البنفسجية مع ألوان زاهية تدوم طويلاً.",
         features: ["مقاومة للأشعة فوق البنفسجية", "سطح غير قابل للانزلاق", "ألوان متعددة زاهية", "سهل التطبيق والصيانة"],
-        image: "links/media/photo/sportsFlooring/acrylicPaint.jpg",
+        image: "media/photo/sportsFlooring/acrylicPaint.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -527,7 +527,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Strong Adhesion",
         description: "برايمر أكريليك مائي يستخدم كطبقة أساسية لتحضير أرضيات الملاعب قبل تطبيق دهانات الأكريليك النهائية. يعزز التصاق الطلاء، ويزيد من عمر السطح، ويضمن تشطيب متجانس عالي الجودة.",
         features: ["مقاومة ممتازة للرطوبة", "تجفيف سريع وسهل التطبيق", "مناسب لمختلف الأرضيات الرياضية", "إطالة عمر الطلاء النهائي"],
-        image: "links/media/photo/sportsFlooring/primerPaint.jpg",
+        image: "media/photo/sportsFlooring/primerPaint.jpg",
         whatsapp: "201094732106"
     },
     // Artificial Turf Glued Two-component:
@@ -546,7 +546,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "30–45 minutes",
         description: `(Two-Component) <br> لاصق صناعي ثنائي المكوّن  مخصص لتركيب النجيل الصناعي. يوفر قوة التصاق عالية، مقاوم للعوامل الجوية، ومناسب للملاعب والأماكن الخارجية`,
         features:  ["منتج عالي الجودة", "سهولة الاستخدام", "مقاوم للعوامل البيئية المختلفة", "رابط قوي"],
-        image: "links/media/photo/sportsSupplies/twoComponent20Kg.jpeg",
+        image: "media/photo/sportsSupplies/twoComponent20Kg.jpeg",
         whatsapp: "201094732106"
     },
     // Artificial Turf Tape:
@@ -565,7 +565,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Made in Egypt",
         description: "شريط لحام عالي الجودة بعرض 15 سم يُستخدم مع لاصق النجيل الصناعي لربط وتثبيت اللفائف بشكل متين ودقيق. مثالي للملاعب الاحترافية والمشروعات الكبيرة.",
         features:  ["منتج عالي الجودة", "سهولة الاستخدام", "مقاوم للعوامل البيئية المختلفة", "لفات باطوال مختلفة"],
-        image: "links/media/photo/sportsSupplies/artificialTurfTape.jpg",
+        image: "media/photo/sportsSupplies/artificialTurfTape.jpg",
         whatsapp: "201094732106"
     },
     {
@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Made in Egypt",
         description: "شريط تخطيط العشب الصناعي عبارة عن شريط من البولي بروبيلين يستخدم لتثبيت وصلات قطعتي العشب الصناعي معا",
         features:  ["منتج عالي الجودة", "سهولة الاستخدام", "مقاوم للعوامل البيئية المختلفة", "لفات باطوال مختلفة"],
-        image: "links/media/photo/sportsSupplies/artificialTurfTape.jpg",
+        image: "media/photo/sportsSupplies/artificialTurfTape.jpg",
         whatsapp: "201094732106"
     },
     // Artificial Turf Brush:
@@ -602,7 +602,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feaFour: "Made in Egypt",
         description: "فرشاة تمشيط العشب الصناعي هي اداة مصممة لرفع الياف العشب الصناعي المتساقطة والمضغوطة مما يحافظ علي مظهره الطبيعي ",
         features:  ["منتج عالي الجودة", "سهولة الاستخدام", "الحفاظ علي المظهر", "اطالة العمر التشغيلي", "تحسين الاداء"],
-        image: "links/media/photo/sportsSupplies/turfBrush.png",
+        image: "media/photo/sportsSupplies/turfBrush.png",
         whatsapp: "201094732106"
     }
 ];
