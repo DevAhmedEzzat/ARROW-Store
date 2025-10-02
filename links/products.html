@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ARROW Store | Artificial Grass & Sports Supplies in Egypt</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" type="image/x-icon" href="links/media/photo/logoIcon.png">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <!-- Load Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+        <!-- Load Styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/storeStyles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="container header-container">
+                <div class="logo">   
+                    <img class="logoOne" src="links/media/photo/logo.png" alt="logo">
+                    <span>ARROW<span class="logo-highlight">Store</span></span>
+                </div>
+                <nav>
+                    <a class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <ul id="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#badr-companies">Agents</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </header>
+        
+        <section id="home" class="hero" style="background-image: url('links/media/photo/home/heroBack.png')">
+            <!-- طبقة شفافة -->
+            <div class="layer"></div>
+            <div class="hero-content">
+            <!-- عنوان رئيسي -->
+                <h1>Premium Sports Flooring & Supplies</h1>
+                <!-- وصف قصير -->
+                <p>
+                    اكتشف أرضيات ومعدات رياضية عالمية المستوى مصممة للأداء والمتانة والسلامة.  
+                    مثالية للأكاديميات والصالات الرياضية والمدارس والمنشآت الرياضية الاحترافية.
+                </p>
+                <!-- نموذج البحث -->
+                <form class="search-form" id="searchForm">
+                    <div class="form-group">
+                        <select id="category" required>
+                            <option value="">Product Categories</option>
+                            <option value="artificial-turf">Artificial Turf</option>
+                            <option value="sports-supplies">Sports Supplies</option>
+                            <option value="sports-flooring">Sports Flooring</option>
+                            <option value="sports-equipment">Sports Equipment</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="ProductType" required>
+                            <option value="">Product Type</option>
+                            <option value="landscape">Landscape Turf</option>
+                            <option value="football">Football Turf</option>
+                            <option value="multi-sport-turf">Multi-Sport Turf</option>
+                            <option value="supplies">Sports Supplies</option>
+                            <option value="multipurpose-sports-flooring">Multipurpose Sports Flooring</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="listingType" required>
+                            <option value="">Listing Type</option>
+                            <option value="best">Best Seller</option>
+                            <option value="special">Special Offer</option>
+                        </select>
+                    </div>
+                </form>
+                <!-- زر البحث -->
+                <button class="search-btn" onclick="searchproducts()">
+                    Search
+                </button>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main>
+            
+
+            <!-- Products Section--> 
+            <section class="products-section" id="products">
+                <h2 class="section-title">المنتجات المميزة</h2>
+                <div class="products-grid" id="productsGrid">
+                    <!-- products will be dynamically loaded here -->
+                </div>
+            </section>
+            <div class="more-gard">    
+                <a href="#home" class="more light">1</a>
+                <a href="links/products-page1.html" class="more">2</a>
+                <a href="links/products-page2.html" class="more">3</a>
+                <a href="#" class="more">></a>
+            </div> 
+        </main>
+          
+        <!-- companies section -->
+        <section class="companies-section" id="badr-companies" dir="rtl">
+            <h2 class="section-title">افضل الشركات الرياضية</h2>
+            <p>
+                كبرى الشركات الرياضية في مصر لتقديم أحدث الحلول في إنشاء وتجهيز الملاعب والبنية التحتية الرياضية
+            </p>
+            <div class="companies-wrapper">
+                <button class="companies-nav prev" aria-label="تحريك لليسار">‹</button>
+
+                <div class="companies-track" id="companiesTrack" tabindex="0" role="region" aria-label="قائمة الشركات"></div>
+
+                <button class="companies-nav next" aria-label="تحريك لليمين">›</button>
+            </div>
+            <div class="companies-dots" id="companiesDots"></div>
+        </section>
+            
+        <!-- sports-factories section 
+        <section class="factories-section" id="sports-factories" dir="rtl">
+                <h2 class="section-title">شركاؤنا من الشركات الرياضية</h2>
+                <p>
+                    نفتخر بالتعاون مع كبرى الشركات الرياضية في مصر والشرق الأوسط لتقديم أحدث الحلول في إنشاء وتجهيز الملاعب والبنية التحتية الرياضية
+                </p>
+                <div class="factories-wrapper">
+                    <button class="factories-nav prev" aria-label="تحريك لليسار">‹</button>
+
+                    <div class="factories-track" id="factoriesTrack" tabindex="0" role="region" aria-label="قائمة الشركات"></div>
+
+                    <button class="factories-nav next" aria-label="تحريك لليمين">›</button>
+                </div>
+                <div class="factories-dots" id="factoriesDots"></div>
+        </section>   -->  
+
+        <!-- Footer -->
+        <footer id="footer" style="background-image: url('links/media/photo/home/footerBack.png')">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-column">
+                        <div class="logo">
+                            <img class="logoOne" src="links/media/photo/logo.png" alt="logo">
+                            <span>ARROW<span class="logo-highlight">Store</span></span>
+                        </div>
+                        <p>
+                            Arrow Store – The first online store in Egypt for Artificial Turf, Sports Flooring & Supplies.
+                            Powered by Arrow Sports Construction, the leading company in high-quality turf installation, sports equipment, and professional flooring solutions.
+                        </p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>The newsletter</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Artificial Turf Landscape</a></li>
+                            <li><a href="#">Artificial turf fields</a></li>
+                            <li><a href="#">Sports Flooring</a></li>
+                            <li><a href="#">Sports Supplies</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Agents</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About Agents</a></li>
+                            <li><a href="#">About factories</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <ul class="footer-links">
+                            <li>Cairo, Egypt</li>
+                            <li><a href="https://wa.me/201094732106">(+2) 01094732106</a></li>
+                            <li><a href="mailto:ArrowStoreEgy@gmail.com">ArrowStoreEgy@gmail.com</a></li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/ArrowStoreEgy" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://wa.me/201094732106" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/arrowstoreegy" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@arrowstoreegy" target="_blank"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://youtube.com/@ArrowStoreEgy" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        &copy; 2025 ARROW Store. All Rights Reserved. Powered by 
+                        <a href="https://arrow-technology.netlify.app" target="_blank">Arrow Tech</a>
+                    </p>
+                </div>
+            </div>
+        </footer> 
+
+        <!-- Product Details Modal -->
+        <div id="ProductModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="modalContent"></div>
+            </div>
+        </div>
+        <!-- app -->
+        <script src='links/js/app.js'></script>
+        <!-- products -->
+        <script src='js/products/products.js'></script>
+        <script src='js/products/home.js'></script>
+        <!-- agents -->
+        <script src='js/agents/agentsHome.js'></script>
+    </body>
+</html>
