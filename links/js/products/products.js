@@ -146,6 +146,57 @@ function contactAgent(ProductId) {
 
   const phone = Product.whatsapp.replace(/\D/g, ""); // نتأكد انه رقم بس  
 
+  // نجيب الباث الحالي (سواء الصفحة الرئيسية أو صفحة منتجات)
+  const currentPath = window.location.pathname;
+
+  let ProductUrl;
+
+  // لو في الصفحة الرئيسية
+  if (currentPath === "/" || currentPath === "/index.html") {
+    ProductUrl = `${window.location.origin}/#Product-${ProductId}`;
+  } 
+  // لو في أي صفحة تحت /links/products/
+  else if (currentPath.startsWith("/links/products/")) {
+    const currentPage = currentPath.split("/").pop(); // page2 أو page3
+    ProductUrl = `${window.location.origin}/links/products/${currentPage}#Product-${ProductId}`;
+  } 
+  // fallback
+  else {
+    ProductUrl = `${window.location.origin}/#Product-${ProductId}`;
+  }
+
+  const message = `Hello 👋
+أنا مهتم بالمنتج:
+"${Product.title}"
+
+📂 Category: ${Product.category}
+🧵 Detex: ${Product.detex || '-'}
+📏 Pile: ${Product.pile || '-'} MM / #️⃣ ${Product.stitches?.toLocaleString() || '-'} stit
+🏷️ كود المنتج: ${Product.id}
+💰 السعر: ${Product.price.toLocaleString()} ج.م
+
+🖼️ صورة المنتج:
+${window.location.origin}/${Product.image}
+
+🌐 رابط المنتج:
+${ProductUrl}`;
+
+  // فتح واتساب
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
+
+/*
+// Contact agent
+function contactAgent(ProductId) {
+  const Product = products.find(p => p.id === ProductId);
+  if (!Product) {
+    alert("المنتج غير موجود 🚫");
+    return;
+  }
+
+  const phone = Product.whatsapp.replace(/\D/g, ""); // نتأكد انه رقم بس  
+
   // نجيب الباث الحالي
   const currentPath = window.location.pathname;
 
@@ -185,7 +236,7 @@ ${ProductUrl}`;
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 }
-
+*/
 /*
 // Contact agent
 function contactAgent(ProductId) {
