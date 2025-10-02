@@ -170,8 +170,17 @@ function contactAgent(ProductId) {
 "${Product.title}"
 
 📂 Category: ${Product.category}
-🧵 Detex: ${Product.detex || '-'}
-📏 Pile: ${Product.pile || '-'} MM / #️⃣ ${Product.stitches?.toLocaleString() || '-'} stit
+${Product.pile > 0 ? `<span class="Product-detail" style="font-size: 1.1rem;"><i class="fa-solid fa-ruler-vertical" style="color:#0ea5a4; font-size:20px;"></i>Height  ${Product.pile}MM</span>` : ''}
+${Product.stitches > 0 ? `<span class="Product-detail" style="font-size: 1.1rem;"><i class="fa-solid fa-grip-lines" style="color:#0ea5a4; font-size:20px;"></i> ${Product.stitches}stitches</span>` : ''}
+${Product.detex > 0 ? `<span class="Product-detail">🧵 ${Product.detex} Detex</span>` : ''}
+${Product.gauge > "" ? `<span class="Product-detail">📐 ${Product.gauge} Gauge</span>` : ''}
+${Product.feaOne > "" ? `<span class="Product-detail">${Product.feaOne}</span>` : ''}
+${Product.feaTwo > "" ? `<span class="Product-detail">${Product.feaTwo}</span>` : ''}
+${Product.feaThree > "" ? `<span class="Product-detail">${Product.feaThree}</span>` : ''}
+${Product.feaFour > "" ? `<span class="Product-detail">${Product.feaFour}</span>` : ''}
+
+🧵 Detex: ${Product.detex || ''}
+📏 Pile: ${Product.pile || ''} MM / #️⃣ ${Product.stitches?.toLocaleString() || '-'} stit
 🏷️ كود المنتج: ${Product.id}
 💰 السعر: ${Product.price.toLocaleString()} ج.م
 
