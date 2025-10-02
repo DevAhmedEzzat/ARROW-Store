@@ -5,183 +5,131 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ARROW Store | Artificial Grass & Sports Supplies in Egypt</title>
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="icon" type="image/x-icon" href="links/media/photo/logoIcon.png">
+        <link rel="icon" type="image/x-icon" href="media/photo/logoIcon.png">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <!-- Load Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
         <!-- Load Styles -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="links/css/homeStyles.css" rel="stylesheet">
+        <link href="css/storeStyles.css" rel="stylesheet">
     </head>
     <body>
         <!-- Header -->
         <header>
             <div class="container header-container">
                 <div class="logo">   
-                    <img class="logoOne" src="links/media/photo/logo.png" alt="logo">
+                    <img class="logoOne" src="media/photo/logo.png" alt="logo">
                     <span>ARROW<span class="logo-highlight">Store</span></span>
-                </div> 
-                <a href="links/products.html" id="store" class="store"><i class="fa fa-shopping-cart"></i></a>
+                </div>
                 <nav>
-                    <button class="hamburger" id="hamburger">
+                    <a class="hamburger" id="hamburger">
                         <i class="fas fa-bars"></i>
-                    </button>
+                    </a>
                     <ul id="nav-menu">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#features">Products</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#badr-companies">Agents</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
+                        <li><a href="https://arrowstore.netlify.app/">About Us</a></li>
                     </ul>
                 </nav>
-            </div>
-            <button id="lang-btn" class="language-switch" onclick="toggleLanguage()">
-                    <span id="lang-text">Arabic</span>
-            </button>
-        </header>
-        <!-- Hero Section -->
-        <section class="hero" id="home" style="background-image: url('links/media/photo/home/heroBack.png')">
-            <div class="container">
-                <div class="hero-content">
-                    <h1>ARROW Store</h1>
-                    <h2 id="hero-title">Premium Sports Flooring</h2>
-                    <p id="hero-desc">Transforming spaces into high-performance sports environments with
-                        cutting-edge artificial grass, professional sports equipment,
-                        and specialized flooring systems.</p>
-                    <div class="hreo-button">
-                        <a href="https://wa.me/201094732106" class="btn btn-secondary" target="_blank"><i class="fab fa-whatsapp"></i> Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- about Section -->
-        <section class="about" id="about">
-            <div class="container">
-                <div class="section-title">
-                    <h2>About us</h2>
-                    <p id="about-title">Integrated artificial turf and sports flooring solutions in Egypt</p>
-                </div>
-                <div class="about-wrapper">
-                    <div class="about-card">
-                        <div id="about-desc1" class="about-content">
-                            we believe that every space can be transformed into a safe, green, and comfortable place. We offer artificial turf and sports flooring designed to withstand heavy use with a natural look and low maintenance—perfect for clubs, academies, schools, parks, and residential projects.
-                        </div>
-                    </div>
-                    <div class="about-card">
-                        <div id="about-desc2" class="about-content">
-                            The first online store specializing in the sale of artificial turf and sports flooring is brought to you by Al-Sahm Sports Construction Company, one of the largest and most prominent companies in the sports industry.  The company builds all types of sports facilities and equips sports clubs with the latest equipment and high-quality materials, all under the supervision of a distinguished and comprehensive team of professionals.
-                        </div>
-                    </div>
                 
-                </div>
+            </div>
+        </header>
+        
+        <section id="home" class="hero" style="background-image: url('media/photo/home/heroBack.png')">
+            <!-- طبقة شفافة -->
+            <div class="layer"></div>
+            <div class="hero-content">
+            <!-- عنوان رئيسي -->
+                <h1>Premium Sports Flooring & Supplies</h1>
+                <!-- وصف قصير -->
+                <p>
+                    اكتشف أرضيات ومعدات رياضية عالمية المستوى مصممة للأداء والمتانة والسلامة.  
+                    مثالية للأكاديميات والصالات الرياضية والمدارس والمنشآت الرياضية الاحترافية.
+                </p>
+                <!-- نموذج البحث -->
+                <form class="search-form" id="searchForm">
+                    <div class="form-group">
+                        <select id="category" required>
+                            <option value="">Product Categories</option>
+                            <option value="artificial-turf">Artificial Turf</option>
+                            <option value="sports-supplies">Sports Supplies</option>
+                            <option value="sports-flooring">Sports Flooring</option>
+                            <option value="sports-equipment">Sports Equipment</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="ProductType" required>
+                            <option value="">Product Type</option>
+                            <option value="landscape">Landscape Turf</option>
+                            <option value="football">Football Turf</option>
+                            <option value="multi-sport-turf">Multi-Sport Turf</option>
+                            <option value="supplies">Sports Supplies</option>
+                            <option value="multipurpose-sports-flooring">Multipurpose Sports Flooring</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="listingType" required>
+                            <option value="">Listing Type</option>
+                            <option value="best">Best Seller</option>
+                            <option value="special">Special Offer</option>
+                        </select>
+                    </div>
+                </form>
+                <!-- زر البحث -->
+                <button class="search-btn" onclick="searchproducts()">
+                    Search
+                </button>
             </div>
         </section>
 
-        <!-- Product Categories -->
-        <section class="features" id="features" style="background-image: url('links/media/photo/home/featuresBack.png')">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Product Categories</h2>
-                    <p id="features-desc">Discover our comprehensive range of high-quality sports solutions for professional facilities, educational institutions, and home use.</p>
+        <!-- Main Content -->
+        <main>
+            
+
+            <!-- Products Section--> 
+            <section class="products-section" id="products">
+                <h2 class="section-title">المنتجات المميزة</h2>
+                <div class="products-grid" id="productsGrid">
+                    <!-- products will be dynamically loaded here -->
                 </div>
-                <div class="categories-grid">
-                    <!-- Artificial Grass card --> 
-                    <div id="" class="category-card">
-                        <h3 id="category-title1">Artificial Grass Solutions</h3>
-                        <p id="category-desc1">
-                            Discover premium synthetic turf designed for <strong>football fields, multi-sport courts, landscaping, gardens, and recreational areas</strong>. 
-                            Engineered with <strong>high durability, UV protection, natural look & feel</strong>, and minimal maintenance requirements, 
-                            our artificial grass ensures top performance and long-lasting quality.
-                        </p>
-                        <ul class="features-list">
-                            <li>Multiple pile heights & gauges available (3/4, 5/8, etc.)</li>
-                            <li>Suitable for professional sports fields & training pitches</li>
-                            <li>Eco-friendly with efficient drainage system</li>
-                            <li>Soft & safe for kids and pets</li>
-                        </ul>
-                        <div class="image-gallery">
-                            <img src="links/media/photo/home/artificialGrass.png" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/footballTurf.png" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/multiSportTurf.png" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/landscapeTurf.png" alt="Futuristic Living Design 1">
-                        </div>
-                        <a href="links/products.html" class="btn btn-primary" target="_blank">Discover More</a>
-                    </div>
-                    <!-- Sports Flooring card --> 
-                    <div id="" class="category-card">
-                         <h3 id="category-title2">Sports Flooring Solutions</h3>
-                        <p id="category-desc2">
-                            High-performance <strong>indoor & outdoor sports flooring</strong> designed for 
-                            <strong>basketball, tennis, volleyball, gyms, and multipurpose courts</strong>. 
-                            Our surfaces ensure <strong>maximum safety, shock absorption, durability, and slip resistance</strong>, 
-                            meeting international sports standards.
-                        </p>
-                        <ul class="features-list">
-                            <li>Acrylic, PU, Rubber & Multipurpose flooring systems</li>
-                            <li>Suitable for schools, clubs, gyms & professional arenas</li>
-                            <li>UV-resistant & weatherproof for outdoor use</li>
-                            <li>Shock-absorbing & safe for athletes</li>
-                        </ul>
-                        <div class="image-gallery">
-                            <img src="links/media/photo/home/sportsFlooring.jpg" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/acrylicFlooring.jpg" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/multipurposeSports.png" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/sportsflooringBack.png" alt="Futuristic Living Design 1">
-                        </div>
-                        <a href="links/products.html" class="btn btn-primary" target="_blank">Discover More</a>
-                    </div>
-                    <!-- Sports Supplies card --> 
-                    <div id="" class="category-card">
-                        <h3 id="category-title3">Sports Supplies & Equipment</h3>
-                        <p id="category-desc3">
-                            Complete range of <strong>professional sports supplies</strong> designed for 
-                            <strong>clubs, academies, schools, and stadiums</strong>. 
-                            From <strong>training gear, nets, and lighting systems</strong> to 
-                            <strong>protective netting and accessories</strong> – we provide 
-                            durable, reliable, and high-quality solutions for every sport.
-                        </p>
+            </section>
+            <section class="more-gard">
+                <div class="container">
+                    <ul>
+                        <li class="more light"><a href="#home">1</a></li>
+                        <li class="more"><a href="links/products-page1.html">2</a></li>
+                        <li class="more"><a href="links/products-page2.html">3</a></li>
+                        <li class="more"><a href="#">></a></li>
+                    </ul>                    
+                </div>   
+            </section> 
+        </main>
+          
+        <!-- companies section -->
+        <section class="companies-section" id="badr-companies" dir="rtl">
+            <h2 class="section-title">افضل الشركات الرياضية</h2>
+            <p>
+                كبرى الشركات الرياضية في مصر لتقديم أحدث الحلول في إنشاء وتجهيز الملاعب والبنية التحتية الرياضية
+            </p>
+            <div class="companies-wrapper">
+                <button class="companies-nav prev" aria-label="تحريك لليسار">‹</button>
 
-                        <ul class="features-list">
-                            <li>Sports equipment for team & individual training</li>
-                            <li>Net systems & side netting for safety & durability</li>
-                            <li>Advanced LED lighting systems for stadiums & fields</li>
-                            <li>Custom solutions for schools, clubs & sports complexes</li>
-                        </ul>
-                        <div class="image-gallery">
-                            <img src="links/media/photo/home/sportsEquipment.png" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/playgroundNetSystems.png" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/lightingSystems.png" alt="Futuristic Living Design 1">
-                            <img src="links/media/photo/home/sideNetting.png" alt="Futuristic Living Design 1">
-                        </div>
-                        <a href="links/products.html" class="btn btn-primary" target="_blank">Discover More</a>
-                    </div>
-                </div>
+                <div class="companies-track" id="companiesTrack" tabindex="0" role="region" aria-label="قائمة الشركات"></div>
+
+                <button class="companies-nav next" aria-label="تحريك لليمين">›</button>
             </div>
+            <div class="companies-dots" id="companiesDots"></div>
         </section>
-
-        <!-- contact Section -->
-        <section class="cta" id="contact">
-            <div class="container">
-                <h2>Are you ready to implement your sports facility?</h2>
-                <p id="cta-desc">Contact our team today for expert consultation on your artificial grass, sports equipment, or flooring needs.</p>
-                <div class="social-links">
-                            <a href="https://www.facebook.com/ArrowStoreEgy" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://wa.me/201094732106" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                            <a href="https://www.instagram.com/arrowstoreegy" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.tiktok.com/@arrowstoreegy" target="_blank"><i class="fab fa-tiktok"></i></a>
-                            <a href="https://youtube.com/@ArrowStoreEgy" target="_blank"><i class="fab fa-youtube"></i></a>
-                            <a href="links/products.html" target="_blank"><i class="fa fa-shopping-cart"></i></a>
-                        </div>
-            </div>
-        </section>
-
+            
         <!-- Footer -->
-        <footer id="footer" style="background-image: url('links/media/photo/home/footerBack.png')">
+        <footer id="footer" style="background-image: url('media/photo/home/footerBack.png')">
             <div class="container">
                 <div class="footer-container">
                     <div class="footer-column">
                         <div class="logo">
-                            <img class="logoOne" src="links/media/photo/logo.png" alt="logo">
+                            <img class="logoOne" src="media/photo/logo.png" alt="logo">
                             <span>ARROW<span class="logo-highlight">Store</span></span>
                         </div>
                         <p>
@@ -190,7 +138,7 @@
                         </p>
                     </div>
                     <div class="footer-column">
-                        <h3>The Newsletter</h3>
+                        <h3>The newsletter</h3>
                         <ul class="footer-links">
                             <li><a href="#">Artificial Turf Landscape</a></li>
                             <li><a href="#">Artificial turf fields</a></li>
@@ -199,11 +147,19 @@
                         </ul>
                     </div>
                     <div class="footer-column">
+                        <h3>Agents</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About Agents</a></li>
+                            <li><a href="#">About factories</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
                         <h3>Contact Us</h3>
                         <ul class="footer-links">
                             <li>Cairo, Egypt</li>
                             <li><a href="https://wa.me/201094732106">(+2) 01094732106</a></li>
-                            <li><a href="mailto:arrowstoreagy@gmail.com">ArrowStoreEgy@gmail.com</a></li>
+                            <li><a href="mailto:ArrowStoreEgy@gmail.com">ArrowStoreEgy@gmail.com</a></li>
                         </ul>
                         <div class="social-links">
                             <a href="https://www.facebook.com/ArrowStoreEgy" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -222,7 +178,20 @@
                 </div>
             </div>
         </footer> 
-        <script src="links/js/app.js"></script>
-        <script src="links/js/translations.js"></script>
+
+        <!-- Product Details Modal -->
+        <div id="ProductModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="modalContent"></div>
+            </div>
+        </div>
+        <!-- app -->
+        <script src='links/js/app.js'></script>
+        <!-- products -->
+        <script src='js/products/products.js'></script>
+        <script src='js/products/home.js'></script>
+        <!-- agents -->
+        <script src='js/agents/agentsHome.js'></script>
     </body>
 </html>
