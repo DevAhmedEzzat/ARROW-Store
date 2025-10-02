@@ -147,7 +147,7 @@ function contactAgent(ProductId) {
   const phone = Product.whatsapp.replace(/\D/g, ""); // نتأكد انه رقم بس  
 
   // رابط صفحة الإعلان (ممكن يتعدل حسب مكان الملف)
-  const ProductUrl = `${window.category.origin}/links/aqarNew.html#Product-${ProductId}`;
+  const ProductUrl = `${window.category.origin}/links/products.html#Product-${ProductId}`;
 
   const message = `Hello 👋
 أنا مهتم بالمنتج:
@@ -160,7 +160,7 @@ function contactAgent(ProductId) {
 💰 السعر: ${Product.price.toLocaleString()} ج.م
 
 🖼️ صورة المنتج:
-${window.category.origin}/links/${Product.image}
+${window.category.origin}/${Product.image}
 
 🌐 رابط الإعلان:
 ${ProductUrl}`;
