@@ -100,7 +100,7 @@ function showProductDetails(ProductId) {
             </div>
         <div class="Product-details" style="margin-bottom: 2rem; gap: 2rem;">
             ${Product.pile > 0 ? `<span class="Product-detail" style="font-size: 1.1rem;"><i class="fa-solid fa-ruler-vertical" style="color:#0ea5a4; font-size:20px;"></i>Height  ${Product.pile}MM</span>` : ''}
-            ${Product.stitches > 0 ? `<span class="Product-detail" style="font-size: 1.1rem;"><i class="fa-solid fa-grip-lines" style="color:#0ea5a4; font-size:20px;"></i> ${Product.stitches}stitches</span>` : ''}
+            ${Product.stitches > 0 ? `<span class="Product-detail" style="font-size: 1.1rem;"><i class="fa-solid fa-grip-lines" style="color:#0ea5a4; font-size:20px;"></i> ${Product.stitches} stitches</span>` : ''}
             ${Product.detex > 0 ? `<span class="Product-detail">🧵 ${Product.detex} Detex</span>` : ''}
             ${Product.gauge > "" ? `<span class="Product-detail">📐 ${Product.gauge} Gauge</span>` : ''}
             ${Product.feaOne > "" ? `<span class="Product-detail">${Product.feaOne}</span>` : ''}
